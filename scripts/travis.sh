@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-./gradlew app:assembleDebug --info --stacktrace
+./gradlew :app:test :app:assembleDebug --info --stacktrace
